@@ -38,3 +38,13 @@ function generaNumeroRandom(min, max) {
     // qui dentro scrivo il codice per generare un numero random tra min e max
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+//questa funzione controlla se un numero è pari o dispari
+function verificaPariDispari(numero) {
+    // qui dentro scrivo il codice per verificare se un numero è pari o dispari
+    if (numero % 2 === 0) {
+        return 'pari';
+    } else {
+        return 'dispari';
+    }
+}
