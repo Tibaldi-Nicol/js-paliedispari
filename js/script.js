@@ -42,9 +42,18 @@ function generaNumeroRandom(min, max) {
 //questa funzione controlla se un numero è pari o dispari
 function verificaPariDispari(numero) {
     // qui dentro scrivo il codice per verificare se un numero è pari o dispari
+    // descrivo dettagliatamente il procedimento logico
+    // se il resto della divisione del numero per 2 è uguale a 0 allora il numero è pari
+    // altrimenti è dispari
+    //semplice if else
     if (numero % 2 === 0) {
         return 'pari';
     } else {
         return 'dispari';
     }
 }
+
+// ora comuni allutente se vuole scegliere pari o dispari
+let sceltaUtente = prompt('Scegli pari o dispari');
+//faccio scegliere un numero all'utente da 1 a 5
+let numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'));
