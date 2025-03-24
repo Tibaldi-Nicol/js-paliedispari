@@ -6,3 +6,6 @@ function checkpalindroma(string){
     console.log(reversed);
     console.log(joined);
 }
+
+let word = prompt('Inserisci una parola');
+checkpalindroma(word);
