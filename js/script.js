@@ -57,3 +57,36 @@ function verificaPariDispari(numero) {
 let sceltaUtente = prompt('Scegli pari o dispari');
 //faccio scegliere un numero all'utente da 1 a 5
 let numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'));
+
+//genero un numero random 
+let numeroRandom = generaNumeroRandom();
+console.log(numeroRandom, 'numerorandom');
+
+//sommo i due numeri
+let somma = numeroUtente + numeroRandom;
+console.log(somma, 'somma');
+
+//verifico se la somma è pari o dispari
+let risultato = verificaPariDispari(somma);
+console.log(risultato, 'risultato');
+
+//verifico se l'utente ha vinto
+if (risultato === sceltaUtente) {
+    console.log('hai vinto');
+} else {
+    console.log('hai perso');
+}
+
+//spiegazione esercizio 2
+//chiedo all'utente di scegliere tra pari e dispari
+//chiedo all'utente di scegliere un numero da 1 a 5
+//genero un numero random da 1 a 5
+//sommo i due numeri
+//verifico se la somma è pari o dispari
+//verifico se l'utente ha vinto o perso
+//stampo il risultato
+
+//spiegazione esercizio 1
+//chiedo all'utente di inserire una parola
+//controllo se la parola è palindroma
+//stampo il risultato
