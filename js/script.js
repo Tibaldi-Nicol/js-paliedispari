@@ -1,4 +1,4 @@
-
+/*
 function checkpalindroma(string) {
     // Divido la stringa in un array di caratteri
     let splitted = string.split('');
@@ -16,7 +16,7 @@ function checkpalindroma(string) {
     
     // Confronto la stringa originale con quella invertita
     if (string.toLowerCase() === joined.toLowerCase()) { // È palindroma perche la stringa originale è uguale a quella invertita
-        
+
         console.log(`"${string}" è palindroma!`);
         alert(`"${string}" è palindroma!`);
     } else {
@@ -30,3 +30,11 @@ let word = prompt('Inserisci una parola');
 
 // Eseguo il controllo palindroma
 checkpalindroma(word);
+*/
+
+// ESERCIZIO 2 PARI O DISPARI
+//questa funzione genera un numero random tra 1 e 5
+function generaNumeroRandom(min, max) {
+    // qui dentro scrivo il codice per generare un numero random tra min e max
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
