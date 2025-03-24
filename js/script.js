@@ -59,7 +59,7 @@ let sceltaUtente = prompt('Scegli pari o dispari');
 let numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'));
 
 //genero un numero random 
-let numeroRandom = generaNumeroRandom();
+let numeroRandom = generaNumeroRandom(1, 5);
 console.log(numeroRandom, 'numerorandom');
 
 //sommo i due numeri
